@@ -1,0 +1,141 @@
+/* 
+* Referencias:
+* https://www.w3schools.com/
+* ttps://www.w3schools.com/html/default.asp
+* https://www.w3schools.com/css/default.asp
+* http://www.getbootstrap.com/docs/3.3/examples/theme/#
+*/
+
+html, body, table, tr, td, p, div, ul, a {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: white;
+	font-family: Calibri, Arial;
+}
+
+img.header {
+	display: block;
+	margin: 0 auto;
+	vertical-align: top; 
+}
+
+div.header {
+	background-image: url("../img/backgroundTop.jpg");
+	background-repeat: repeat-x;
+	position: static;
+}
+
+div.footer {
+	position: static;
+	bottom: 0;
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+	background-image: url("../img/backgroundTop.jpg");
+	background-repeat: repeat-x; 	
+	font-size: 15px;
+	color: white;
+}
+
+ul.containerMenu {
+	width: 100%;
+	padding-top: 15px;
+	list-style: none;
+	background-color: #f1f1f1;
+	border-right: 2px solid #e2e2e2;
+	min-height:150vh;
+
+}
+
+.containerMain {
+	min-height: 80vh;
+}
+
+a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+a:hover {
+    background-color: #660000;
+    color: white;
+    text-decoration: none;
+}
+
+.formulario {
+	padding: 5px 0px 5px 0px;
+	text-align: center;
+	vertical-align: center;
+	font-family: Calibri, Arial;
+}
+
+.radioModificado {
+	padding: 5px 50px 5px 50px;
+	text-align: center;
+	vertical-align: center;
+	font-family: Calibri, Arial;
+}
+
+.mensagemSucesso{
+	background-color: #f1f1f1;
+	padding: 50px 0px 50px 0px;
+	font-family: Calibri, Arial;
+	font-size: 50px;
+	text-align: center;
+	min-height: 50vh;
+}
+h1 {
+	padding: 20px 20px 30px 0px;
+}
+
+#personalizada {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border: solid 1px;
+    border-color: black;
+    width: 100%;
+}
+
+#personalizada td, #personalizada th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#personalizada tr:nth-child(even){background-color: #f2f2f2;}
+
+#personalizada tr:hover {background-color: #ddd;}
+
+#personalizada th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #cca300;
+    color: white;
+    border: solid #ddd;
+}
+
+#personalizada tr.linhaDestaque{
+	border: 1px solid #ddd;
+	font-weight: bold;
+	background-color: #0000ff;
+	color: white;
+}
+
+.boxContato {
+	background-color: #c2d1ef;
+	padding: 30px 20px 30px 20px;
+}
+
+.imputAzul{
+	background-color: #ebf0fa;
+	width: 100%;
+	border: 2px solid #99b3e6;
+	padding: 5px 0px 5px 0px;
+}
+textarea {
+	height: 20vh;
+}

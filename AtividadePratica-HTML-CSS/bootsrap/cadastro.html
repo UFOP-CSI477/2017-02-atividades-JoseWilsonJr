@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Cadastro</title>
+		<link href="./css/bootstrap.css" rel="stylesheet">
+		<link href="./MeusCss/index.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		
+		<div class="row">			
+			<div class="col-md-12">
+				
+				<!-- Cabeçalho -->
+				<div class="row header">
+					<div class="col-md-12"><img class="header" src="./img/ufoplogo.jpg" alt="UFOP-Logo Cabeçalho">
+					</div>
+				</div>
+
+				<!-- Corpo do site -->
+				<div class="row">
+					<div class="col-md-2 containerMenu">
+						<ul class="col-md-12 containerMenu">
+							<li><a href="./index.html">Voltar</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-8 containerMain">
+
+						<h1> Formulário de Cadastro </h1>
+						<form action="#" method="post"> 
+							<div class="row form-group">
+								<label for="matricula" class="formulario col-md-2">Matrícula:</label>
+								<div class="col-md-10">
+									<input type="text" name="matricula" class="form-control">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<label for="nome" class="formulario col-md-2">Nome:</label>
+								<div class="col-md-10">
+									<input type="text" name="nome" class="form-control">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<label for="rua" class="formulario col-md-2">Rua:</label>
+								<div class="col-md-10">
+									<input type="text" name="rua" class="form-control">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<label for="numero" class="formulario col-md-2">Numero:</label>
+								<div class="col-md-10">
+									<input type="text" name="numero" class="form-control">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<label for="complemento" class="formulario col-md-2">Complemento:</label>
+								<div class="col-md-10">
+									<input type="text" name="complemento" class="form-control">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<label for="cidade" class="formulario col-md-2">Cidade/Estado:</label>
+								<div class="col-md-10">
+									<select class="form-control" id="cidade">
+											<option value="0">Selecione uma opção</option>
+											<option value="1">João Monlevade - MG</option>
+											<option value="2">Itabira - MG</option>
+											<option value="3">Belo Horizonte - MG</option>
+											<option value="4">São Paulo - SP </option>
+											<option value="5">Rio de Janeiro - RJ</option>
+											<option value="6">Salvador - BA</option>
+											<option value="7">Fotaleza - CE</option>
+											<option value="8">Brasília - DF</option>
+											<option value="9">Belem - PR</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="row">
+								<label class="formulario col-md-2">Generero:</label>
+								<div class="form-group">
+									<div class="radio-inline">
+										<label><input type="radio" name="genero" value="F">Feminino</label>
+									</div>
+									<div class="radio-inline">
+										<label><input type="radio" name="genero" value="M">Masculino</label>
+									</div>
+									<div class="radio-inline">
+										<label><input type="radio" name="genero" value="N">Não Binário</label>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row form-group">
+								<label for="rg" class="formulario col-md-2">RG:</label>
+								<div class="col-md-10">
+									<input type="text" name="rg" class="form-control">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<label for="cpf" class="formulario col-md-2">CPF:</label>
+								<div class="col-md-10">
+									<input type="text" name="cpf" class="form-control">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<label for="tiposanguineo" class="formulario col-md-2">Tipo Sanguineo:</label>
+								<div class="col-md-10">
+									<select class="form-control" id="tiposanguineo">
+											<option value="0">Selecione uma opção</option>
+											<option value="1">Tipo A</option>
+											<option value="2">Tipo B</option>
+											<option value="3">Tipo AB</option>
+											<option value="4">Tipo O</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<label class="formulario col-md-2">Tipo RH:</label>
+								<div class="form-group">
+									<div class="radio-inline">
+										<label><input type="radio" name="positivo" value="P">Poositivo</label>
+									</div>
+									<div class="radio-inline">
+										<label><input type="radio" name="negativo" value="M">Negativo</label>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row form-group">
+								<label for="telefone" class="formulario col-md-2">Telefone:</label>
+								<div class="col-md-10">
+									<input type="text" name="telefone" class="form-control">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<label for="celular" class="formulario col-md-2">Celular:</label>
+								<div class="col-md-10">
+									<input type="text" name="celular" class="form-control">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<label for="email" class="formulario col-md-2">E-mail:</label>
+								<div class="col-md-10">
+									<input type="text" name="email" class="form-control">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<label for="senha" class="formulario col-md-2">Senha:</label>
+								<div class="col-md-10">
+									<input type="password" name="senha" class="form-control">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<label for="confirmasenha" class="formulario col-md-2">Confirmar Senha:</label>
+								<div class="col-md-10">
+									<input type="password" name="confirmasenha" class="form-control">
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<label form="acessos" class="formulario col-md-2">Acessos:</label>
+								<div class="form-group checkbox">
+									<label class="formulario col-md-2"><input type="checkbox" name="biblioteca">Biblioteca</label>
+								</div>								
+								<div class="form-group checkbox">
+									<label class="formulario col-md-2"><input type="checkbox" name="restaurante">Restaurante</label>
+								</div>
+								<div class="form-group checkbox">
+									<label class="formulario col-md-2"><input type="checkbox" name="clube">Clube</label>
+								</div>
+								<div class="form-group checkbox">
+									<label class="formulario col-md-2"><input type="checkbox" name="campo">Campo</label>
+								</div>							
+							</div>
+
+
+							<div class="row form-group">
+								<div class="col-md-2"></div>
+								<div><a href="./sucessoCadastro.html" class="btn btn-danger col-md-4">Enviar</a></div>
+								<div class="col-md-2"></div>
+								<button type="reset" class="btn btn-danger col-md-4">Limpar</button>
+							</div>
+						</form>
+					</div>
+					
+					<div class="col-md-2"></div>
+				</div>
+
+				
+
+
+				<!-- Rodapé -->
+				<div class="row footer">
+					<div class="col-md-12">
+						<p>Copyright &copy; UFOP - Universidade Federal de Ouro preto</p>
+						<p>Aluno: José Wilson da Silva Júnior - 15.1.8156</p>
+						<p>E-mail: josewilsonsilvajr@gmail.com</p>
+					</div>
+				</div>
+
+			</div>						
+		</div>
+
+	</body>
+</html>
