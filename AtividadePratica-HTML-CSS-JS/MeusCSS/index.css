@@ -1,0 +1,25 @@
+/* 
+* Referencias:
+* https://www.w3schools.com/
+* ttps://www.w3schools.com/html/default.asp
+* https://www.w3schools.com/css/default.asp
+* http://www.getbootstrap.com/docs/3.3/examples/theme/#
+*/
+
+html, body, table, tr, td, p, div, ul, a {
+	margin: 0px;
+	padding: 0px;
+}
+
+.conteudo.central{
+	background-color: white; 
+	min-height: 480px;
+}
+
+div.footer {
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	font-size: 12px;
+	background-color: #222;
+	color: white;
+}
